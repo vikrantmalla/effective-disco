@@ -1,0 +1,28 @@
+.aside {
+    @include flex(column, center);
+    margin-bottom: 9rem;
+    padding: 3rem;
+    h2 {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+        padding: 1rem;
+    }
+    button {
+        margin-bottom: 0;
+        padding: .6rem 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .aside {
+        margin-bottom: 12rem;
+        h2 {
+            font-size: 1.5rem;
+        }
+        button {
+            font-size: .6rem;
+            padding: 1.2rem 3.5rem;
+        }
+    }
+}

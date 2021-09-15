@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@import './variable';
+@import './header';
+@import './stats';
+@import './container';
+@import './cta';
+@import './footer';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: #fff;
+    border: 1px solid $ColorPink;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 700;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    transition: all .1s;
+    outline: none;
+    color: $ColorPink;
+}
+
+.btn-primary {
+    background-color: $ColorPink;
+    color: $ColorVeryPaleCyan;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: $ColorVeryDarkCyan;
+    color: #fff;
+}
+
+.attribution a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 1rem;
+        padding: 1rem 3.7rem;
+    }
+    .btn-primary {
+        padding: 1rem 3.7rem;
+        margin-bottom: 2.5rem;
+    }
+}

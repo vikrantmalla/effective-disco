@@ -1,0 +1,48 @@
+.stats {
+    @include flex(column, space-around);
+    margin: 0 auto;
+    padding-bottom: 8rem;
+    gap: 2.2rem;
+    h2 {
+        font-size: 2rem;
+        color: $ColorVeryDarkCyan;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    p {
+        font-size: .6rem;
+        color: $ColorVeryDarkCyan;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .stats {
+        @include flex(row, space-around);
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 8rem;
+        gap: 2.2rem;
+        h2 {
+            font-size: 5rem;
+            color: $ColorVeryDarkCyan;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+            color: $ColorVeryDarkCyan;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

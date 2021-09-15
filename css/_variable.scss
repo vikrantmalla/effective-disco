@@ -1,0 +1,22 @@
+/*Primary*/
+
+$ColorPink: hsl(322, 100%, 66%);
+$ColorLightPink: hsl(321, 100%, 78%);
+$ColorLightRed: hsl(0, 100%, 63%);
+
+/*Neutral*/
+
+$ColorVeryDarkCyan: hsl(192, 100%, 9%);
+$ColorVeryPaleBlue: hsl(207, 100%, 98%);
+
+/*just*/
+
+$ColorVeryPaleCyan: hsl(193, 100%, 96%);
+$ColorVeryDarkCyan: hsl(192, 100%, 9%);
+$ColorGrayishBlue: hsl(208, 11%, 55%);
+@mixin flex($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+}
