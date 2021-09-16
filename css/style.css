@@ -21,7 +21,7 @@ header .navigation-bar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0.3rem 4%;
+  padding: 1rem 4%;
 }
 
 header .navigation-bar img {
@@ -80,8 +80,7 @@ header .header .header-desc p {
 
 @media (min-width: 768px) {
   header {
-    margin-bottom: 15.9rem;
-    padding: 2.5rem;
+    margin-bottom: 7.3rem;
   }
   header .navigation-bar img {
     width: 15%;
@@ -102,7 +101,7 @@ header .header .header-desc p {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 2rem;
-    padding: 1.5rem;
+    padding: 1.8rem;
   }
   header .header .header-desc {
     display: -webkit-box;
@@ -118,20 +117,21 @@ header .header .header-desc p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 1rem;
     text-align: center;
   }
   header .header .header-desc h1 {
     font-size: 2.2rem;
-    margin-bottom: 2.1rem;
+    margin-bottom: 1.4rem;
   }
   header .header .header-desc p {
-    font-size: 1rem;
-    margin-bottom: 3.1rem;
-    padding: 0 12rem;
+    font-size: 1.2rem;
+    margin-bottom: 2.7rem;
+    width: 35rem;
+    line-height: 1.9rem;
   }
   header .header .header-desc .btn-primary {
-    padding: 1rem 2.5rem;
+    width: 24rem;
+    height: 5rem;
     margin-bottom: 7.5rem;
   }
   header .header .header-img img {
@@ -152,8 +152,7 @@ header .header .header-desc p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
-  padding-bottom: 8rem;
+  margin-bottom: 6rem;
   gap: 2.2rem;
 }
 
@@ -190,22 +189,14 @@ header .header .header-desc p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 8rem;
+    margin-bottom: 10rem;
     gap: 2.2rem;
   }
   .stats h2 {
-    font-size: 5rem;
-    color: #00252e;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+    font-size: 6rem;
   }
   .stats p {
-    font-size: 1rem;
-    color: #00252e;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
   }
   .stats img {
     width: 35px;
@@ -224,8 +215,8 @@ header .header .header-desc p {
   background-image: url(../images/bg-section-top-mobile-1.svg);
   background-size: cover;
   width: 100%;
-  height: 200px;
-  top: -180px;
+  height: 100px;
+  top: -100px;
   left: 0px;
 }
 
@@ -233,11 +224,11 @@ header .header .header-desc p {
   content: "";
   position: absolute;
   background-image: url(../images/bg-section-bottom-mobile-1.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 200px;
+  height: 180px;
   left: 0px;
-  bottom: -200px;
+  bottom: -180px;
 }
 
 .container .wave2 {
@@ -251,20 +242,19 @@ header .header .header-desc p {
   background-image: url(../images/bg-section-top-mobile-2.svg);
   background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 100px;
   left: 0;
-  top: -170px;
+  top: -100px;
 }
 
 .container .wave2::after {
   content: "";
   position: absolute;
   background-image: url(../images/bg-section-bottom-mobile-2.svg);
-  background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 100px;
   left: 0px;
-  bottom: -190px;
+  bottom: -100px;
 }
 
 .container .box {
@@ -319,42 +309,24 @@ header .header .header-desc p {
     background-color: #f5faff;
   }
   .container .wave1::before {
-    content: "";
-    position: absolute;
     background-image: url(../images/bg-section-top-desktop-1.svg);
-    top: -180px;
-    left: 0px;
+    height: 180px;
+    top: -150px;
   }
   .container .wave1::after {
-    content: "";
-    position: absolute;
     background-image: url(../images/bg-section-bottom-desktop-1.svg);
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    left: 0px;
-    bottom: -200px;
-  }
-  .container .wave2 {
-    position: relative;
-    background-color: #f5faff;
+    height: 150px;
+    bottom: -100px;
   }
   .container .wave2::before {
-    content: "";
-    position: absolute;
     background-image: url(../images/bg-section-top-desktop-1.svg);
-    background-size: cover;
-    width: 100%;
     height: 200px;
-    top: -170px;
-    left: 0px;
+    top: -160px;
   }
   .container .wave2::after {
-    content: "";
-    position: absolute;
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
-    left: 0px;
-    bottom: -200px;
+    height: 140px;
+    bottom: -130px;
   }
   .container .box {
     display: -ms-grid;
@@ -362,7 +334,7 @@ header .header .header-desc p {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     border-radius: .9rem;
-    margin: 2.5rem 0;
+    margin: 2.5rem;
     padding: 3.7rem;
     grid-auto-flow: column;
   }
@@ -400,7 +372,7 @@ header .header .header-desc p {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    margin: 2.5rem 0;
+    margin: 2.5rem;
     padding: 3.7rem;
     grid-auto-flow: column;
   }
@@ -465,7 +437,7 @@ header .header .header-desc p {
   }
 }
 
-footer {
+footer .footer-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[1];
@@ -475,7 +447,7 @@ footer {
   position: relative;
 }
 
-footer::before {
+footer .footer-container::before {
   content: "";
   position: absolute;
   background-image: url(../images/bg-footer-top-mobile.svg);
@@ -485,7 +457,7 @@ footer::before {
   top: -45px;
 }
 
-footer a {
+footer .footer-container a {
   color: #ebfbff;
   text-decoration: none;
   font-size: .8rem;
@@ -494,34 +466,34 @@ footer a {
   font-weight: 400;
 }
 
-footer .header-newsletter {
+footer .footer-container .header-newsletter {
   width: 100%;
   margin-bottom: 2rem;
 }
 
-footer .header-newsletter .newsletter-desc {
+footer .footer-container .header-newsletter .newsletter-desc {
   margin-bottom: 1rem;
 }
 
-footer .header-newsletter .newsletter-desc h3 {
+footer .footer-container .header-newsletter .newsletter-desc h3 {
   font-size: 1rem;
   color: white;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
-footer .header-newsletter .newsletter-desc p {
+footer .footer-container .header-newsletter .newsletter-desc p {
   font-size: .8rem;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
-footer .header-newsletter .newsletter-form {
+footer .footer-container .header-newsletter .newsletter-form {
   margin-bottom: 2rem;
 }
 
-footer .header-newsletter .newsletter-form form {
+footer .footer-container .header-newsletter .newsletter-form form {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -542,14 +514,14 @@ footer .header-newsletter .newsletter-form form {
   gap: .8rem;
 }
 
-footer .header-newsletter .newsletter-form form input {
+footer .footer-container .header-newsletter .newsletter-form form input {
   width: 100%;
   padding: 1rem;
   border: 1px solid #fff;
   border-radius: .2rem;
 }
 
-footer .header-newsletter .newsletter-form form button {
+footer .footer-container .header-newsletter .newsletter-form form button {
   width: 50%;
   padding: 1rem 3rem;
   background-color: #ff52bf;
@@ -560,7 +532,7 @@ footer .header-newsletter .newsletter-form form button {
   margin-left: 5rem;
 }
 
-footer .header-info {
+footer .footer-container .header-info {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -581,7 +553,7 @@ footer .header-info {
   gap: 2rem;
 }
 
-footer .header-info .header-logo p {
+footer .footer-container .header-info .header-logo p {
   color: #ebfbff;
   font-size: .7rem;
   text-align: left;
@@ -589,7 +561,7 @@ footer .header-info .header-logo p {
   font-weight: 400;
 }
 
-footer .header-info .header-contact {
+footer .footer-container .header-info .header-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -609,21 +581,21 @@ footer .header-info .header-contact {
   gap: .8rem;
 }
 
-footer .header-info .header-contact .phone::before {
+footer .footer-container .header-info .header-contact .phone::before {
   content: url(../images/icon-phone.svg);
   margin-right: .7rem;
 }
 
-footer .header-info .header-contact .email::before {
+footer .footer-container .header-info .header-contact .email::before {
   content: url(../images/icon-email.svg);
   margin-right: .7rem;
 }
 
-footer .header-info .header-contact img {
+footer .footer-container .header-info .header-contact img {
   width: 50%;
 }
 
-footer .header-info .social-link {
+footer .footer-container .header-info .social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -644,13 +616,13 @@ footer .header-info .social-link {
   margin-top: 2rem;
 }
 
-footer .header-info .social-link i {
+footer .footer-container .header-info .social-link i {
   color: white;
   font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  footer {
+  footer .footer-container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -webkit-box-pack: center;
@@ -659,9 +631,9 @@ footer .header-info .social-link i {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 6rem;
+    padding: 5rem;
   }
-  footer::before {
+  footer .footer-container::before {
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -670,29 +642,29 @@ footer .header-info .social-link i {
     top: -150px;
     left: 0px;
   }
-  footer a {
+  footer .footer-container a {
     font-size: .8rem;
     text-align: left;
   }
-  footer .header-newsletter {
-    width: 80%;
+  footer .footer-container .header-newsletter {
+    width: 90%;
     margin-bottom: 0;
   }
-  footer .header-newsletter .newsletter-desc {
+  footer .footer-container .header-newsletter .newsletter-desc {
     margin-bottom: 1rem;
   }
-  footer .header-newsletter .newsletter-desc h3 {
+  footer .footer-container .header-newsletter .newsletter-desc h3 {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
-  footer .header-newsletter .newsletter-desc p {
+  footer .footer-container .header-newsletter .newsletter-desc p {
     font-size: .8rem;
     padding-right: 8.5rem;
   }
-  footer .header-newsletter .newsletter-form {
+  footer .footer-container .header-newsletter .newsletter-form {
     margin-bottom: 2rem;
   }
-  footer .header-newsletter .newsletter-form form {
+  footer .footer-container .header-newsletter .newsletter-form form {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -710,31 +682,31 @@ footer .header-info .social-link i {
     align-items: center;
     gap: .8rem;
   }
-  footer .header-newsletter .newsletter-form form input {
+  footer .footer-container .header-newsletter .newsletter-form form input {
     width: 100%;
     padding: 1rem;
     border-radius: .2rem;
   }
-  footer .header-newsletter .newsletter-form form button {
+  footer .footer-container .header-newsletter .newsletter-form form button {
     width: 50%;
     padding: 1rem 3rem;
     border-radius: .2rem;
     font-size: .8rem;
     margin-left: 1rem;
   }
-  footer .header-info {
+  footer .footer-container .header-info {
     -ms-grid-row: 1;
         grid-row-start: 1;
     width: 50%;
     gap: 2rem;
   }
-  footer .header-info .header-logo p {
+  footer .footer-container .header-info .header-logo p {
     margin-top: .6rem;
   }
-  footer .header-info .header-contact {
+  footer .footer-container .header-info .header-contact {
     gap: 1rem;
   }
-  footer .header-info .social-link {
+  footer .footer-container .header-info .social-link {
     gap: 2rem;
     font-size: 2rem;
   }

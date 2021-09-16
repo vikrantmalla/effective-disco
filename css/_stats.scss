@@ -1,7 +1,6 @@
 .stats {
     @include flex(column, space-around);
-    margin: 0 auto;
-    padding-bottom: 8rem;
+    margin-bottom: 6rem;
     gap: 2.2rem;
     h2 {
         font-size: 2rem;
@@ -24,21 +23,13 @@
 @media (min-width: 768px) {
     .stats {
         @include flex(row, space-around);
-        width: 80%;
-        margin: 0 auto;
-        padding-bottom: 8rem;
+        margin-bottom: 10rem;
         gap: 2.2rem;
         h2 {
-            font-size: 5rem;
-            color: $ColorVeryDarkCyan;
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
+            font-size: 6rem;
         }
         p {
-            font-size: 1rem;
-            color: $ColorVeryDarkCyan;
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
+            font-size: 1.5rem;
         }
         img {
             width: 35px;
